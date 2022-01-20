@@ -153,12 +153,12 @@
                         <div class="p-6">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 ">Información</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a>Información</a></div>
                             </div>
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600  text-sm">
-                                    Con la ayuda de los colaboradores del GAD-MIES de la parroquia Mulaló, se procede a la entrega del maletín terapéutico con todos sus componentes, el mismo que de la importancia dentro del un artículo, al igual que se ha desarrollado el presente sistema con el fin de poder llevar un control de los terapeutas y sus pacientes de la tercera edad.
+                                    La universidad de las Fuerzas Armadas ESPE y con la ayuda de los colaboradores del GAD-MIES de la parroquia Mulaló, se procede a la entrega del maletín terapéutico con todos sus componentes, el mismo que le da importancia dentro de un <a href="https://docs.google.com/document/d/1woPbtZ-8-34XGZGelArtw0YCwOM5K9Bb/edit?usp=sharing&ouid=100012539918061215454&rtpof=true&sd=true" class="underline">artículo</a>, al igual que se ha desarrollado el presente sistema con el fin de poder llevar un control de los terapeutas y sus pacientes de la tercera edad.
                                 </div>
                             </div>
                         </div>
@@ -166,12 +166,12 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 ">Fotos y videos</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a>Videos</a></div>
                             </div>
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 -400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                    Dentro de las evidencias se puede apreciar lo realizado en el presente proyecto, tanto en el <a class="underline" href="https://drive.google.com/file/d/1CL71FdgLasM-j4pGD73FLg6o2wvC-7R3/view?usp=sharing">video técnico</a> como en el <a class="underline" href="https://res.cloudinary.com/dutwlsrv9/video/upload/v1642707353/fotos%20para%20el%20sistema%20de%20vinculaci%C3%B3n/gngpmwffmh3nkfh2dun9.mp4">video comercial</a>, a fin de que se pueda tomar como referencia para proyectos futuros y así contribuir a la sociedad.
                                 </div>
                             </div>
                         </div>
@@ -179,31 +179,31 @@
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900">Conclusión</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a >Conclusión</a></div>
                             </div>
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600  text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </div>
+                                    La importancia de poder ayudar a las personas de la tercera edad en la parroquia Mulaló, nos ha impulsado a aportar con un maletín inteligente con tecnología asistida para ayudar a la rehabilitación de nuestros adultos mayores, a su vez, aportar con el sistema de gestión de actividades de terapia, la misma que ayuda a llevar un control de las mismas.
+                               </div>
                             </div>
                         </div>
 
                         <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
                             <div class="flex items-center">
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-8 h-8 text-gray-500"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 ">Problema y solución</a></div>
+                                <div class="ml-4 text-lg leading-7 font-semibold"><a>Problema y solución</a></div>
 
                             </div>
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
+                                <div class="ml-12">
+                                    <div class="mt-2 text-gray-600 text-sm">
+                                        Las personas de la tercera edad se ha convertido en un grupo que a llegado a tomar un relevante porcentaje en problemas de salud como la atrofia, dolores musculares y afines, causada por la artritis, artrosis, y tendinitis, los mismos que por el elevado costo de sus terapias y la distancia no les permite asistir a los centros de salud. Para resolver el problema, se ha contribuido con un maletín inteligente con tecnología asistda, adicionalmente, un sistema sofisticado para la gestión y control de las actividades de cada terapia.
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
                 <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 sm:text-left">
