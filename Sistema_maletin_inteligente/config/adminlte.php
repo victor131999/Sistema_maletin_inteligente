@@ -234,72 +234,31 @@ return [
 
         // Sidebar items:
 
-        [
-            'text'        => 'Usuarios',
-            'url'         => 'users',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
-        ],
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
             'url'  => 'user/profile',
             'icon' => 'fas fa-fw fa-user',
         ],
+
+        ['header' => 'GESTIÓN'],
         [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
-        ],
-        ['header' => 'labels'],
-        [
-            'text'       => 'important',
+            'text'       => 'Usuarios',
             'icon_color' => 'red',
-            'url'        => '#',
+            'url'        => 'users',
+            'label_color' => 'success',
         ],
         [
-            'text'       => 'warning',
+            'text'       => 'Pacientes',
             'icon_color' => 'yellow',
-            'url'        => '#',
+            'url'        => 'anciano',
+            'label_color' => 'success',
         ],
         [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
+            'text'       => 'Actividades',
+            'icon_color' => 'yellow',
+            'url'        => 'actividad',
+            'label_color' => 'success',
         ],
     ],
 

@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InicioController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\AncianoController;
+use App\Http\Controllers\ActividaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +21,8 @@ Route::get('/', function () {
 });
 
 Route::resource('users', UserController::class)->middleware('auth');
+Route::resource('anciano', AncianoController::class)->middleware('auth');
+Route::resource('actividad', ActividaController::class)->middleware('auth');
 
 Route::group(['middleware' => 'auth'],function () {
    Route::get('/', [InicioController::class, 'index'])->name('home');
