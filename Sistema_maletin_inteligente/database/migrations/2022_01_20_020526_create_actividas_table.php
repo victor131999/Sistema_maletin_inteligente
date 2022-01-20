@@ -21,8 +21,8 @@ class CreateActividasTable extends Migration
             $table->timestamps();
             $table->unsignedBigInteger('id_an')->nullable();
             $table->unsignedBigInteger('id_us')->nullable();
-            $table->foreign('id_an')->references('id')->on('ancianos')->onDelete('set null');
-            $table->foreign('id_us')->references('id')->on('users')->onDelete('set null');
+            $table->foreign('id_an')->references('id')->on('ancianos')->onDelete('set null')->onDelete('cascade');
+            $table->foreign('id_us')->references('id')->on('users')->onDelete('set null')->onDelete('cascade');
         });
     }
 

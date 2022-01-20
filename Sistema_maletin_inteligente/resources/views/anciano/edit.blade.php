@@ -10,7 +10,7 @@
 <form action="{{url('/anciano/'.$anciano->id)}}" method="post" enctype="multipart/form-data">
 @csrf
 {{method_field('PATCH')}}
-    @include('anciano.form',['modo'=>'Editar ']);
+    @include('anciano.form',['modo'=>'Editar '])
 
 </form>
 @stop
