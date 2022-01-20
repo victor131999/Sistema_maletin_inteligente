@@ -247,6 +247,7 @@ return [
             'icon_color' => 'yellow',
             'url'        => 'users',
             'label_color' => 'success',
+            'can' => 'users.index',
         ],
         [
             'text'       => 'Pacientes',

@@ -16,6 +16,9 @@
                 <input type="hidden" class="form-control" name="idFact" id="idFact" value="{{isset($actividad->id)?$actividad->id:old('id')}}" id="idFact">
                 <label for="id_an">Paciente</label>
                 <select  class="form-control" type="text" name="id_an" value="{{isset($actividad->id_an)?$actividad->id_an:old('id_an')}}" id="id_an">
+                    <option>
+                        <label for="id_an">Seleccionar un paciente</label>
+                    </option>
                     @foreach ($anciano as $ancianos)
                             <option value="{{$ancianos->id}} ">
                                 {{$ancianos->id}} - {{$ancianos->nombre}}
@@ -26,6 +29,9 @@
             <div class="col-6">
                 <label for="id_an">Responsable</label>
                 <select  class="form-control" type="text" name="id_us" value="{{isset($actividad->id_us)?$actividad->id_us:old('id_us')}}" id="id_us">
+                    <option>
+                        <label for="id_an">Seleccionar un responsable</label>
+                    </option>
                     @foreach ($User as $Users)
                             <option value="{{$Users->id}} ">
                                 {{$Users->name}}

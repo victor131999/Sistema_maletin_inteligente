@@ -6,9 +6,15 @@ use Illuminate\Http\Request;
 use App\Models\User;
 
 use Spatie\Permission\Models\Role;
-
+use Illuminate\Support\Facades\Hash;
 class UserController extends Controller
 {
+    public function __construct(){
+        $this->middleware('can:users.index')->only('index');
+        $this->middleware('can:users.create')->only('create');
+        $this->middleware('can:users.edit')->only('edit');
+        $this->middleware('can:users.destroy')->only('destroy');
+    }
     /**
      * Display a listing of the resource.
      *
@@ -48,9 +54,12 @@ class UserController extends Controller
             'roles' => 'required',
 
         ]);
+        $request->request->add([
+            'password' => Hash::make($request->input('password'))
+        ]);
         $user=User::create($request->all());
         $user->roles()->sync($request->roles);
-        return redirect()->route('users.edit',$user)->with('info','El usuario se creo con éxito');
+        return redirect()->route('users.index',$user)->with('info','El usuario se creo con éxito');
     }
 
     /**
