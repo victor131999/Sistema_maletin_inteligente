@@ -1,7 +1,7 @@
 <div>
     <div class="card">
         <div class="card-header">
-            <input wire:model="search" class="form-control" placeholder="Ingrese un nombre o correo de un usuario">
+            <input class="form-control" id="search" type="text" placeholder="Search..">
         </div>
         @if ($users->count())
             <div class="card-body">
@@ -14,7 +14,7 @@
                             <th></th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="myTable">
                         @foreach ($users as $user)
                             <tr>
                                 <td>{{$user->id}}</td>
@@ -43,3 +43,16 @@
         @endif
     </div>
 </div>
+
+@section('js')
+    <script> console.log('Hi!'); </script>
+    <script> $(document).ready(function(){
+        $("#search").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+        });
+    </script>
+@stop

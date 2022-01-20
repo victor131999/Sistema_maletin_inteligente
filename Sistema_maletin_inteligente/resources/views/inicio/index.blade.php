@@ -29,33 +29,22 @@
         <!-- Small boxes (Stat box) -->
         <div class="row">
 
-            <div class="col-lg-3 col-6">
-            <!-- small box -->
-                <div class="small-box bg-danger">
-                    <div class="inner">
-
-                        <p>Ordenes de trabajo</p>
-                    </div>
-                    <div class="icon">
-                        <i class="ion ion-stats-bars"></i>
-                    </div>
-                    <a href="" class="small-box-footer">Más información<i class="fas fa-arrow-circle-right"></i></a>
-                </div>
-            </div>
-
             <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3>0</h3>
-
-                <p>Ordenes de producción</p>
+                @if ($NumAncianos != null)
+                    <h3>{{$NumAncianos}}<sup style="font-size: 20px"></sup></h3>
+                @else
+                    <h3>0<sup style="font-size: 20px"></sup></h3>
+                @endif
+                <p>Pacientes registrados</p>
               </div>
               <div class="icon">
                 <i class="ion ion-bag"></i>
               </div>
-              <a href="" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="{{url('anciano/')}}" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -63,14 +52,17 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>0</h3>
-
-                <p>Productos finalizados</p>
+                @if ($NumActividades != null)
+                    <h3>{{$NumActividades}}<sup style="font-size: 20px"></sup></h3>
+                @else
+                    <h3>0<sup style="font-size: 20px"></sup></h3>
+                @endif
+                <p>Terapias realizadas</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
               </div>
-              <a href="" class="small-box-footer">Más información<i class="fas fa-arrow-circle-right"></i></a>
+              <a href="{{url('actividad/')}}" class="small-box-footer">Más información<i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
           <!-- ./col -->
@@ -79,14 +71,17 @@
             <div class="small-box bg-warning">
               <div class="inner">
 
-                    <h3>0</h3>
-
-                <p>Clientes registrados</p>
+                @if ($NumUsuarios != null)
+                    <h3>{{$NumUsuarios}}<sup style="font-size: 20px"></sup></h3>
+                @else
+                    <h3>0<sup style="font-size: 20px"></sup></h3>
+                @endif
+                <p>Personal registrado</p>
               </div>
               <div class="icon">
                 <i class="ion ion-person-add"></i>
               </div>
-              <a href="" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="{{url('users/')}}" class="small-box-footer">Más información <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
         </div>

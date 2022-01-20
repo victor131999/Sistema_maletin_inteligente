@@ -18,11 +18,10 @@
     </button>
 </div>
 @endif
-
-
-
 <a href="{{url('anciano/create')}}" class="btn btn-outline-success">Registrar nueva persona</a>
 <br/>
+<br/>
+  <input class="form-control" id="search" type="text" placeholder="Search..">
 <br/>
 <table class="table table-light">
 
@@ -38,7 +37,7 @@
         </tr>
     </thead>
 
-    <tbody>
+    <tbody id="myTable">
 
         @foreach ($ancianos as $anciano)
         <tr>
@@ -77,5 +76,13 @@
 
 @section('js')
     <script> console.log('Hi!'); </script>
+    <script> $(document).ready(function(){
+        $("#search").on("keyup", function() {
+            var value = $(this).val().toLowerCase();
+            $("#myTable tr").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+            });
+        });
+        });
+    </script>
 @stop
-

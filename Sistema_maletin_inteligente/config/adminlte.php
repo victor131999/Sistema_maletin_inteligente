@@ -244,19 +244,19 @@ return [
         ['header' => 'GESTIÓN'],
         [
             'text'       => 'Usuarios',
-            'icon_color' => 'red',
+            'icon_color' => 'yellow',
             'url'        => 'users',
             'label_color' => 'success',
         ],
         [
             'text'       => 'Pacientes',
-            'icon_color' => 'yellow',
+            'icon_color' => 'blue',
             'url'        => 'anciano',
             'label_color' => 'success',
         ],
         [
             'text'       => 'Actividades',
-            'icon_color' => 'yellow',
+            'icon_color' => 'green',
             'url'        => 'actividad',
             'label_color' => 'success',
         ],
