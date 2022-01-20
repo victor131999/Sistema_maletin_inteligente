@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class activida extends Model
 {
-    protected $fillable = ['id','nombre','descripcion','id_an','id_us'];
+    protected $fillable = ['id','nombre','descripcion','id_an','id_us','fecha'];
     use HasFactory;
 
     public function anciano(){

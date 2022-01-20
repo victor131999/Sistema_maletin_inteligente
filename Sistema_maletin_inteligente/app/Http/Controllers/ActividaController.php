@@ -51,6 +51,7 @@ class ActividaController extends Controller
     {
         $campos=[
             'nombre'=>'required|string|max:100',
+            'fecha'=>'required|string|max:100',
             'descripcion'=>'required',
             'id_an'=>'numeric|min:0|nullable',
             'id_us'=>'numeric|min:0|nullable',
@@ -120,6 +121,7 @@ class ActividaController extends Controller
         //Validación de datos
         $campos=[
             'nombre'=>'required|string|max:100',
+            'fecha'=>'required|string|max:100',
             'descripcion'=>'required',
             'id_an'=>'numeric|min:0|nullable',
             'id_us'=>'numeric|min:0|nullable',
@@ -140,6 +142,7 @@ class ActividaController extends Controller
             $datos = activida::where('id','=', $activida->id)->update([
                 "nombre" =>$input["nombre" ],
                 "descripcion"=>$input["descripcion"],
+                "fecha"=>$input["fecha"],
                 "id_an"=>$input["id_an"],
                 "id_us"=>$input["id_us"],
             ]);

@@ -40,6 +40,8 @@
 
     <label for="descripcion">Descripción</label>
     <textarea type="text" class="form-control" name="descripcion" placeholder=" detalle de las actividades a realizar" value="{{isset($actividad->descripcion)?$actividad->descripcion:old('descripcion')}}" id="descripcion"></textarea>
+    <label for="fecha">Fecha</label>
+    <input type="date" class="form-control" name="fecha" value="{{isset($actividad->fecha)?$actividad->fecha:old('fecha')}}" id="fecha">
 
     <input class="btn btn-outline-success" type="submit" value="{{$modo}} datos">
     <a href="{{url('actividad/')}}">Regresar</a>

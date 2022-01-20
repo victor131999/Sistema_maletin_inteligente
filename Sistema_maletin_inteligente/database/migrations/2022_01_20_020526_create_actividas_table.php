@@ -16,6 +16,7 @@ class CreateActividasTable extends Migration
         Schema::create('actividas', function (Blueprint $table) {
             $table->id();
             $table->string('nombre');
+            $table->string('fecha');
             $table->longtext('descripcion');
             $table->timestamps();
             $table->unsignedBigInteger('id_an')->nullable();
