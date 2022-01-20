@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'TapiCarpas')
+@section('title', 'Gestión de paciente')
 
 @section('content_header')
 <h1 align="center">Editar datos</h1>
