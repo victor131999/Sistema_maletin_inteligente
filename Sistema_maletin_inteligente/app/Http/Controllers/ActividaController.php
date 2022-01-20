@@ -70,6 +70,7 @@ class ActividaController extends Controller
             DB::beginTransaction();
             $datosActividad = activida::create([
                 "nombre" =>$input["nombre" ],
+                "fecha" =>$input["fecha" ],
                 "descripcion"=>$input["descripcion"],
                 "id_an"=>$input["id_an"],
                 "id_us"=>$input["id_us"],

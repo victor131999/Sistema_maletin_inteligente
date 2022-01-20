@@ -42,7 +42,8 @@
             <th>Paciente</th>
             <th>Responsable</th>
             <th>Descripción</th>
-            <th>Fecha</th>
+            <th>Fecha de registro</th>
+            <th>Fecha de sistema</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -55,6 +56,7 @@
             <td>{{$activida->anciano->nombre}} </td>
             <td>{{$activida->responsable->name}} </td>
             <td>{{$activida->descripcion}} </td>
+            <td>{{$activida->fecha}}</td>
             <td>{{$activida->created_at}}</td>
             <td>
                 <a href="{{url('/actividad/'.$activida->id.'/edit')}}" class="btn btn-outline-info">
