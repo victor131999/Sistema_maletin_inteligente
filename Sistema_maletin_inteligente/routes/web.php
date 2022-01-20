@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InicioController;
+use App\Http\Controllers\UserController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,10 +14,11 @@ use App\Http\Controllers\InicioController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('auth.login');
 });
+
+Route::resource('users', UserController::class)->middleware('auth');
 
 Route::group(['middleware' => 'auth'],function () {
    Route::get('/', [InicioController::class, 'index'])->name('home');
